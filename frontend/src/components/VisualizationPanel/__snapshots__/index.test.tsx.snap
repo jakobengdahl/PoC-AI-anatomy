@@ -1,0 +1,713 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`VisualizationPanel matches snapshot with active nodes 1`] = `
+<div>
+  <div
+    style="flex: 1 1 0%; position: relative; background-color: rgb(34, 34, 34); overflow: hidden;"
+  >
+    <svg
+      height="100%"
+      preserveAspectRatio="none"
+      viewBox="0 0 100 100"
+      width="100%"
+    >
+      <g
+        transform="translate(10, 50)"
+      >
+        <circle
+          fill="#007acc"
+          r="3"
+          stroke="white"
+          stroke-width="0.5"
+        />
+        <text
+          fill="white"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Client
+        </text>
+      </g>
+      <g
+        transform="translate(40, 50)"
+      >
+        <circle
+          fill="#007acc"
+          r="3"
+          stroke="white"
+          stroke-width="0.5"
+        />
+        <text
+          fill="white"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Backend
+        </text>
+      </g>
+      <g
+        transform="translate(40, 20)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Memory
+        </text>
+      </g>
+      <g
+        transform="translate(60, 20)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Internet
+        </text>
+      </g>
+      <g
+        transform="translate(60, 80)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          RAG
+        </text>
+      </g>
+      <g
+        transform="translate(60, 50)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Reasoning
+        </text>
+      </g>
+      <g
+        transform="translate(80, 50)"
+      >
+        <circle
+          fill="#007acc"
+          r="3"
+          stroke="white"
+          stroke-width="0.5"
+        />
+        <text
+          fill="white"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          LLM
+        </text>
+      </g>
+      <g
+        transform="translate(85, 20)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          MCP Email
+        </text>
+      </g>
+      <g
+        transform="translate(90, 50)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          MCP Form
+        </text>
+      </g>
+      <g
+        transform="translate(85, 80)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          MCP Task
+        </text>
+      </g>
+    </svg>
+    <div
+      style="position: absolute; bottom: 10px; right: 10px; color: rgb(102, 102, 102); font-size: 0.8rem;"
+    >
+      Visualization Panel
+    </div>
+  </div>
+</div>
+`;
+
+exports[`VisualizationPanel matches snapshot with no active nodes 1`] = `
+<div>
+  <div
+    style="flex: 1 1 0%; position: relative; background-color: rgb(34, 34, 34); overflow: hidden;"
+  >
+    <svg
+      height="100%"
+      preserveAspectRatio="none"
+      viewBox="0 0 100 100"
+      width="100%"
+    >
+      <g
+        transform="translate(10, 50)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Client
+        </text>
+      </g>
+      <g
+        transform="translate(40, 50)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Backend
+        </text>
+      </g>
+      <g
+        transform="translate(40, 20)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Memory
+        </text>
+      </g>
+      <g
+        transform="translate(60, 20)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Internet
+        </text>
+      </g>
+      <g
+        transform="translate(60, 80)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          RAG
+        </text>
+      </g>
+      <g
+        transform="translate(60, 50)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Reasoning
+        </text>
+      </g>
+      <g
+        transform="translate(80, 50)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          LLM
+        </text>
+      </g>
+      <g
+        transform="translate(85, 20)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          MCP Email
+        </text>
+      </g>
+      <g
+        transform="translate(90, 50)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          MCP Form
+        </text>
+      </g>
+      <g
+        transform="translate(85, 80)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          MCP Task
+        </text>
+      </g>
+    </svg>
+    <div
+      style="position: absolute; bottom: 10px; right: 10px; color: rgb(102, 102, 102); font-size: 0.8rem;"
+    >
+      Visualization Panel
+    </div>
+  </div>
+</div>
+`;
+
+exports[`VisualizationPanel matches snapshot with specific visible nodes 1`] = `
+<div>
+  <div
+    style="flex: 1 1 0%; position: relative; background-color: rgb(34, 34, 34); overflow: hidden;"
+  >
+    <svg
+      height="100%"
+      preserveAspectRatio="none"
+      viewBox="0 0 100 100"
+      width="100%"
+    >
+      <g
+        transform="translate(10, 50)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Client
+        </text>
+      </g>
+      <g
+        transform="translate(40, 50)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Backend
+        </text>
+      </g>
+    </svg>
+    <div
+      style="position: absolute; bottom: 10px; right: 10px; color: rgb(102, 102, 102); font-size: 0.8rem;"
+    >
+      Visualization Panel
+    </div>
+  </div>
+</div>
+`;
+
+exports[`VisualizationPanel matches snapshot with trace 1`] = `
+<div>
+  <div
+    style="flex: 1 1 0%; position: relative; background-color: rgb(34, 34, 34); overflow: hidden;"
+  >
+    <svg
+      height="100%"
+      preserveAspectRatio="none"
+      viewBox="0 0 100 100"
+      width="100%"
+    >
+      <line
+        opacity="0.8"
+        stroke="#ffd700"
+        stroke-dasharray="1"
+        stroke-width="0.5"
+        x1="10"
+        x2="40"
+        y1="50"
+        y2="50"
+      />
+      <line
+        opacity="0.8"
+        stroke="#ffd700"
+        stroke-dasharray="1"
+        stroke-width="0.5"
+        x1="40"
+        x2="80"
+        y1="50"
+        y2="50"
+      />
+      <g
+        transform="translate(10, 50)"
+      >
+        <circle
+          fill="#007acc"
+          r="3"
+          stroke="white"
+          stroke-width="0.5"
+        />
+        <text
+          fill="white"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Client
+        </text>
+      </g>
+      <g
+        transform="translate(40, 50)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Backend
+        </text>
+      </g>
+      <g
+        transform="translate(40, 20)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Memory
+        </text>
+      </g>
+      <g
+        transform="translate(60, 20)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Internet
+        </text>
+      </g>
+      <g
+        transform="translate(60, 80)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          RAG
+        </text>
+      </g>
+      <g
+        transform="translate(60, 50)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          Reasoning
+        </text>
+      </g>
+      <g
+        transform="translate(80, 50)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          LLM
+        </text>
+      </g>
+      <g
+        transform="translate(85, 20)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          MCP Email
+        </text>
+      </g>
+      <g
+        transform="translate(90, 50)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          MCP Form
+        </text>
+      </g>
+      <g
+        transform="translate(85, 80)"
+      >
+        <circle
+          fill="#444"
+          r="3"
+          stroke="none"
+          stroke-width="0.5"
+        />
+        <text
+          fill="#666"
+          font-size="3"
+          style="pointer-events: none;"
+          text-anchor="middle"
+          y="5"
+        >
+          MCP Task
+        </text>
+      </g>
+    </svg>
+    <div
+      style="position: absolute; bottom: 10px; right: 10px; color: rgb(102, 102, 102); font-size: 0.8rem;"
+    >
+      Visualization Panel
+    </div>
+  </div>
+</div>
+`;
