@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 
 interface ChatPanelProps {
   exampleId: string;
+  sessionId: string;
   onResponse: (data: any) => void;
 }
 
@@ -10,7 +11,7 @@ interface Message {
   text: string;
 }
 
-export const ChatPanel = ({ exampleId, onResponse }: ChatPanelProps) => {
+export const ChatPanel = ({ exampleId, sessionId, onResponse }: ChatPanelProps) => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -37,7 +38,10 @@ export const ChatPanel = ({ exampleId, onResponse }: ChatPanelProps) => {
       const response = await fetch(`http://localhost:3000/api/chat/${exampleId}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: userMessage.text })
+        body: JSON.stringify({
+          message: userMessage.text,
+          sessionId: sessionId
+        })
       });
 
       if (!response.ok) {

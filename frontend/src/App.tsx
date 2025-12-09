@@ -8,13 +8,16 @@ function App() {
   const [currentExampleIndex, setCurrentExampleIndex] = useState(0);
   const [activeNodes, setActiveNodes] = useState<string[]>([]);
   const [trace, setTrace] = useState<any[]>([]); // Using any for trace steps for now
+  const [sessionId, setSessionId] = useState<string>('');
 
   const currentExample = examples[currentExampleIndex];
 
-  // Reset visualization when example changes
+  // Reset visualization and session when example changes
   useEffect(() => {
     setActiveNodes([]);
     setTrace([]);
+    // Generate a simple random session ID
+    setSessionId(Math.random().toString(36).substring(2, 15));
   }, [currentExampleIndex]);
 
   const handleNext = () => {
@@ -47,6 +50,7 @@ function App() {
         <ChatPanel
           key={currentExample.id}
           exampleId={currentExample.id}
+          sessionId={sessionId}
           onResponse={handleResponse}
         />
         <VisualizationPanel
