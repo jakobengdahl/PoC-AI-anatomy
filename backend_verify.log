@@ -1,0 +1,24 @@
+
+> backend@0.1.0 dev
+> nodemon src/index.ts
+
+[33m[nodemon] 3.1.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node src/index.ts`[39m
+/app/node_modules/openai/src/client.ts:376
+      throw new Errors.OpenAIError(
+            ^
+OpenAIError: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+    at new OpenAI (/app/node_modules/openai/src/client.ts:376:13)
+    at new LLMService (/app/backend/src/services/llmService.ts:9:19)
+    at Object.<anonymous> (/app/backend/src/services/llmService.ts:20:27)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Module.m._compile (/app/node_modules/ts-node/src/index.ts:1618:23)
+    at node:internal/modules/cjs/loader:1839:10
+    at Object.require.extensions.<computed> [as .ts] (/app/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
